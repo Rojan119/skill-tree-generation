@@ -1,0 +1,838 @@
+Questions,Answers,Model Response
+How to learn PostgreSQL from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""PostgreSQL Fundamentals"",
+    ""prerequisites"": [
+      ""Basic Understanding of Databases"",
+      ""Familiarity with SQL""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Fundamentals"",
+        ""resources"": [
+          ""PostgreSQL Official Documentation"",
+          ""SQL Basics Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand relational database concepts"",
+          ""Learn SQL basics"",
+          ""Explore PostgreSQL features"",
+          ""Install and configure PostgreSQL""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Data Definition Language (DDL)"",
+        ""resources"": [
+          ""PostgreSQL DDL Documentation"",
+          ""Table Creation Guide""
+        ],
+        ""milestones"": [
+          ""Create and manage tables"",
+          ""Work with indexes"",
+          ""Create and use views"",
+          ""Understand and manage schemas""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Data Manipulation Language (DML)"",
+        ""resources"": [
+          ""PostgreSQL DML Documentation"",
+          ""SQL Joins Guide""
+        ],
+        ""milestones"": [
+          ""Query data using SELECT"",
+          ""Insert data with INSERT"",
+          ""Update data with UPDATE"",
+          ""Delete data with DELETE"",
+          ""Perform JOIN operations""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Data Control Language (DCL)"",
+        ""resources"": [
+          ""PostgreSQL DCL Documentation"",
+          ""User Management Guide""
+        ],
+        ""milestones"": [
+          ""Manage users and roles"",
+          ""Set permissions and access controls"",
+          ""Understand and implement roles""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""Advanced Features"",
+        ""resources"": [
+          ""PostgreSQL Stored Procedures Guide"",
+          ""Triggers Documentation"",
+          ""Functions Documentation""
+        ],
+        ""milestones"": [
+          ""Create and use stored procedures"",
+          ""Implement triggers"",
+          ""Write and use functions"",
+          ""Manage transactions""
+        ]
+      },
+      {
+        ""order"": 6,
+        ""topic"": ""Performance Tuning"",
+        ""resources"": [
+          ""PostgreSQL Performance Tuning Guide"",
+          ""EXPLAIN Documentation"",
+          ""Index Optimization Guide""
+        ],
+        ""milestones"": [
+          ""Use EXPLAIN to analyze queries"",
+          ""Optimize indexes"",
+          ""Improve query performance"",
+          ""Monitor and use statistics""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Basic SQL Knowledge"",
+      ""Understanding of Database Concepts""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""PostgreSQL Fundamentals"", ""prerequisites"": [""Basic Computer Skills"", ""Understanding of Relational Databases""], ""learning_path"": [{""order"": 1, ""topic"": ""Introduction to Relational Databases"", ""resources"": [""PostgreSQL Documentation"", ""Online Tutorials on Relational Databases""], ""milestones"": [""Understand RDBMS concepts"", ""Differentiate PostgreSQL from other RDBMS and NoSQL""]}, {""order"": 2, ""topic"": ""PostgreSQL Basics"", ""resources"": [""PostgreSQL Tutorial"", ""SQLZoo PostgreSQL Tutorial""], ""milestones"": [""Install PostgreSQL"", ""Connect to a PostgreSQL database"", ""Execute basic SQL commands (SELECT, INSERT, UPDATE, DELETE)""]}, {""order"": 3, ""topic"": ""Advanced SQL"", ""resources"": [""PostgreSQL Documentation on SQL"", ""SQL Style Guide""], ""milestones"": [""Write complex SQL queries"", ""Use JOINs, subqueries, and aggregate functions"", ""Understand and implement indexes""]}, {""order"": 4, ""topic"": ""Schema Design"", ""resources"": [""Database Design Best Practices"", ""Schema Design Anti-patterns""], ""milestones"": [""Design efficient database schemas"", ""Understand normalization and denormalization"", ""Apply schema design patterns""]}, {""order"": 5, ""topic"": ""PL/pgSQL"", ""resources"": [""PostgreSQL Documentation on PL/pgSQL"", ""Online PL/pgSQL Tutorials""], ""milestones"": [""Write stored procedures and functions"", ""Implement triggers"", ""Use control structures in PL/pgSQL""]}, {""order"": 6, ""topic"": ""PostgreSQL Administration"", ""resources"": [""PostgreSQL Documentation on Administration"", ""pgcenter documentation""], ""milestones"": [""Configure PostgreSQL server"", ""Manage users and permissions"", ""Monitor database performance using pg_stat_activity"", ""Understand Per-user, Per-Database Settings and Storage Parameters""]}, {""order"": 7, ""topic"": ""Performance Tuning"", ""resources"": [""EXPLAIN Depesz"", ""PEV2 Tenser"", ""PostgreSQL Wiki on Performance""], ""milestones"": [""Analyze query performance using EXPLAIN"", ""Identify and resolve performance bottlenecks"", ""Tune PostgreSQL for different workloads (OLTP, OLAP, HTAP)"", ""Implement SQL Optimization Techniques""]}, {""order"": 8, ""topic"": ""Troubleshooting"", ""resources"": [""PostgreSQL Documentation on Error Messages"", ""USE RED methodology""], ""milestones"": [""Identify and resolve common PostgreSQL errors"", ""Use troubleshooting tools and techniques"", ""Apply Golden Signals methodology""]}], ""dependencies"": [""SQL"", ""Database Concepts""]}}"
+How to learn Spring Boot from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""Java and Spring Fundamentals"",
+    ""prerequisites"": [
+      ""Basic Programming Concepts"",
+      ""Understanding of Object-Oriented Programming (OOP)""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Java Fundamentals"",
+        ""resources"": [
+          ""Java Official Documentation"",
+          ""Java Tutorials by Oracle""
+        ],
+        ""milestones"": [
+          ""Understand Object-Oriented Programming (OOP)"",
+          ""Implement exception handling"",
+          ""Use the Collections Framework"",
+          ""Work with Lambda Expressions and Stream API""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Spring Framework Basics"",
+        ""resources"": [
+          ""Spring Framework Documentation"",
+          ""Spring Dependency Injection Guide""
+        ],
+        ""milestones"": [
+          ""Understand Dependency Injection (DI)"",
+          ""Learn Aspect-Oriented Programming (AOP)"",
+          ""Work with Spring Beans"",
+          ""Configure Spring applications""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Introduction to Spring Boot"",
+        ""resources"": [
+          ""Spring Boot Official Documentation"",
+          ""Spring Boot Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand Spring Boot overview"",
+          ""Set up Spring Boot project structure"",
+          ""Configure Spring Boot applications"",
+          ""Use auto-configuration""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Web Development"",
+        ""resources"": [
+          ""Spring MVC Documentation"",
+          ""RESTful API Guide"",
+          ""Thymeleaf Documentation""
+        ],
+        ""milestones"": [
+          ""Build web applications with Spring MVC"",
+          ""Create RESTful APIs"",
+          ""Use Thymeleaf as a template engine"",
+          ""Implement validation""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""Data Access"",
+        ""resources"": [
+          ""JPA/Hibernate Documentation"",
+          ""Spring Data JPA Guide""
+        ],
+        ""milestones"": [
+          ""Use JPA/Hibernate for ORM"",
+          ""Work with Spring Data JPA"",
+          ""Manage transactions"",
+          ""Configure database connections""
+        ]
+      },
+      {
+        ""order"": 6,
+        ""topic"": ""Security"",
+        ""resources"": [
+          ""Spring Security Documentation"",
+          ""OAuth2 Guide""
+        ],
+        ""milestones"": [
+          ""Implement Spring Security"",
+          ""Handle authentication and authorization"",
+          ""Use OAuth2 for secure APIs"",
+          ""Protect against CSRF attacks""
+        ]
+      },
+      {
+        ""order"": 7,
+        ""topic"": ""Testing"",
+        ""resources"": [
+          ""JUnit Documentation"",
+          ""Mockito Guide"",
+          ""Spring Boot Testing Documentation""
+        ],
+        ""milestones"": [
+          ""Write unit tests with JUnit"",
+          ""Use Mockito for mocking"",
+          ""Test Spring Boot applications"",
+          ""Perform integration testing""
+        ]
+      },
+      {
+        ""order"": 8,
+        ""topic"": ""Advanced Topics"",
+        ""resources"": [
+          ""Spring Actuators Documentation"",
+          ""Caching Strategies Guide"",
+          ""RabbitMQ and Kafka Documentation""
+        ],
+        ""milestones"": [
+          ""Use Spring Actuators for monitoring"",
+          ""Implement caching strategies"",
+          ""Work with messaging systems (RabbitMQ, Kafka)"",
+          ""Perform batch processing""
+        ]
+      },
+      {
+        ""order"": 9,
+        ""topic"": ""Deployment and Operations"",
+        ""resources"": [
+          ""Maven and Gradle Documentation"",
+          ""Docker Official Documentation"",
+          ""Cloud Deployment Guides (AWS, Azure, GCP)""
+        ],
+        ""milestones"": [
+          ""Build projects with Maven/Gradle"",
+          ""Containerize applications with Docker"",
+          ""Deploy to cloud platforms (AWS, Azure, GCP)"",
+          ""Set up CI/CD pipelines""
+        ]
+      },
+      {
+        ""order"": 10,
+        ""topic"": ""Performance and Scalability"",
+        ""resources"": [
+          ""Java Profiling Tools"",
+          ""Load Testing Tools"",
+          ""Spring Cloud Documentation""
+        ],
+        ""milestones"": [
+          ""Profile applications for performance"",
+          ""Conduct load testing"",
+          ""Implement microservices architecture"",
+          ""Use Spring Cloud for distributed systems""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Basic Java Knowledge"",
+      ""Understanding of Web Development Concepts""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""Spring Boot Learning Path"", ""prerequisites"": [""Java"", ""Spring Core""], ""learning_path"": [{""order"": 1, ""topic"": ""Spring Core Fundamentals"", ""resources"": [""Spring Framework Documentation"", ""TutorialsPoint Spring Tutorial""], ""milestones"": [""Understand Dependency Injection"", ""Configure Spring Beans"", ""Implement Inversion of Control""]}, {""order"": 2, ""topic"": ""Spring Boot Basics"", ""resources"": [""Spring Boot Reference Guide"", ""Spring Initializr""], ""milestones"": [""Create a Spring Boot application"", ""Understand Spring Boot Starters"", ""Explore Auto-configuration""]}, {""order"": 3, ""topic"": ""Data Persistence with Spring Data"", ""resources"": [""Spring Data JPA Documentation"", ""Baeldung Spring Data Tutorials""], ""milestones"": [""Configure a database connection"", ""Implement CRUD operations with Spring Data JPA"", ""Understand Entity Relationships""]}, {""order"": 4, ""topic"": ""Building REST APIs with Spring MVC"", ""resources"": [""Spring MVC Documentation"", ""RESTful API with Spring Boot Tutorial""], ""milestones"": [""Create REST endpoints"", ""Handle HTTP requests and responses"", ""Implement data validation""]}, {""order"": 5, ""topic"": ""Securing Spring Boot Applications with Spring Security"", ""resources"": [""Spring Security Documentation"", ""Spring Security Tutorial""], ""milestones"": [""Implement authentication and authorization"", ""Configure user roles and permissions"", ""Secure REST endpoints""]}, {""order"": 6, ""topic"": ""Testing Spring Boot Applications"", ""resources"": [""Spring Boot Testing Documentation"", ""JUnit Documentation""], ""milestones"": [""Write unit tests for components"", ""Write integration tests for REST endpoints"", ""Use MockMVC for testing controllers""]}, {""order"": 7, ""topic"": ""Spring Boot Actuators"", ""resources"": [""Spring Boot Actuator Documentation""], ""milestones"": [""Monitor and manage Spring Boot application"", ""Configure Actuator endpoints"", ""Understand application health and metrics""]}, {""order"": 8, ""topic"": ""Microservices with Spring Cloud"", ""resources"": [""Spring Cloud Documentation"", ""Microservices with Spring Boot and Spring Cloud""], ""milestones"": [""Implement service discovery"", ""Use API gateways"", ""Configure distributed tracing""]}], ""dependencies"": [""Database (e.g., MySQL, PostgreSQL)"", ""Maven or Gradle"", ""RESTful API principles""]}}"
+How to learn Python from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""Python Fundamentals"",
+    ""prerequisites"": [
+      ""Basic Programming Concepts""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Fundamentals"",
+        ""resources"": [
+          ""Python Official Documentation"",
+          ""Python for Beginners Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand Python syntax"",
+          ""Work with data types (lists, tuples, dictionaries, sets)"",
+          ""Implement control flow (loops, conditionals)"",
+          ""Write functions and use modules"",
+          ""Handle files (read/write operations)""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Object-Oriented Programming (OOP)"",
+        ""resources"": [
+          ""Python OOP Documentation"",
+          ""OOP Concepts Guide""
+        ],
+        ""milestones"": [
+          ""Create classes and objects"",
+          ""Understand inheritance and polymorphism"",
+          ""Implement encapsulation"",
+          ""Use magic methods""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Advanced Topics"",
+        ""resources"": [
+          ""Python Iterators and Generators Guide"",
+          ""Python Decorators Documentation"",
+          ""Context Managers Guide"",
+          ""Multithreading and Multiprocessing Documentation""
+        ],
+        ""milestones"": [
+          ""Work with iterators and generators"",
+          ""Use decorators"",
+          ""Implement context managers"",
+          ""Understand multithreading and multiprocessing""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Python Libraries"",
+        ""resources"": [
+          ""NumPy Documentation"",
+          ""Pandas Documentation"",
+          ""Matplotlib/Seaborn Guide"",
+          ""Requests Library Documentation""
+        ],
+        ""milestones"": [
+          ""Perform numerical operations with NumPy"",
+          ""Analyze data with Pandas"",
+          ""Visualize data with Matplotlib/Seaborn"",
+          ""Make HTTP requests with the Requests library""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""Python for Web Development"",
+        ""resources"": [
+          ""Flask Documentation"",
+          ""Django Official Documentation""
+        ],
+        ""milestones"": [
+          ""Build web applications with Flask (optional)"",
+          ""Learn Django for web development (detailed below)""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Basic Understanding of Programming Logic""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""Python Fundamentals"", ""prerequisites"": [""Basic Computer Skills""], ""learning_path"": [{""order"": 1, ""topic"": ""Basic Syntax"", ""resources"": [""Python Documentation"", ""Codecademy Python Course""], ""milestones"": [""Write 'Hello, World!' program"", ""Understand basic operators""]}, {""order"": 2, ""topic"": ""Variables and Data Types"", ""resources"": [""Real Python Tutorials"", ""Learn Python the Hard Way""], ""milestones"": [""Declare variables"", ""Understand data types (integers, floats, strings, booleans)""]}, {""order"": 3, ""topic"": ""Lists, Tuples, Sets, and Dictionaries"", ""resources"": [""Python Tutorialspoint"", ""GeeksforGeeks Python""], ""milestones"": [""Create and manipulate lists"", ""Understand the difference between tuples, sets, and dictionaries""]}, {""order"": 4, ""topic"": ""Conditionals and Loops"", ""resources"": [""W3Schools Python"", ""Programiz Python""], ""milestones"": [""Write 'if', 'elif', and 'else' statements"", ""Implement 'for' and 'while' loops""]}, {""order"": 5, ""topic"": ""Functions"", ""resources"": [""Google's Python Class"", ""Python.org Function Definition""], ""milestones"": [""Define and call functions"", ""Understand function arguments and return values""]}, {""order"": 6, ""topic"": ""Modules"", ""resources"": [""Python Module Documentation"", ""TutorialsPoint Modules""], ""milestones"": [""Import and use existing modules"", ""Create and use custom modules""]}, {""order"": 7, ""topic"": ""Object-Oriented Programming (OOP)"", ""resources"": [""Real Python OOP Guide"", ""Python OOP Documentation""], ""milestones"": [""Understand classes and objects"", ""Implement inheritance and polymorphism""]}, {""order"": 8, ""topic"": ""Exception Handling"", ""resources"": [""Python Exception Handling Documentation"", ""Programiz Exception Handling""], ""milestones"": [""Handle exceptions using 'try' and 'except'"", ""Raise custom exceptions""]}, {""order"": 9, ""topic"": ""Package Managers (pip, conda)"", ""resources"": [""Pip Documentation"", ""Conda Documentation""], ""milestones"": [""Install and manage Python packages"", ""Create virtual environments""]}, {""order"": 10, ""topic"": ""Testing with unittest/pytest"", ""resources"": [""unittest Documentation"", ""pytest Documentation""], ""milestones"": [""Write unit tests for your code"", ""Use pytest for testing""]}], ""dependencies"": [""Basic programming concepts""]}}"
+How to learn Django from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""Django Fundamentals"",
+    ""prerequisites"": [
+      ""Basic Python Knowledge"",
+      ""Understanding of Web Development Concepts""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Introduction to Django"",
+        ""resources"": [
+          ""Django Official Documentation"",
+          ""Django for Beginners Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand Django overview"",
+          ""Learn MVT architecture"",
+          ""Set up Django project structure"",
+          ""Configure Django settings""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Models and ORM"",
+        ""resources"": [
+          ""Django Models Documentation"",
+          ""Django ORM Guide""
+        ],
+        ""milestones"": [
+          ""Define and use Django models"",
+          ""Perform database migrations"",
+          ""Work with querysets"",
+          ""Understand relationships (OneToMany, ManyToMany)""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Views and Templates"",
+        ""resources"": [
+          ""Django Views Documentation"",
+          ""Django Templates Guide""
+        ],
+        ""milestones"": [
+          ""Create function-based views (FBV)"",
+          ""Use class-based views (CBV)"",
+          ""Render templates"",
+          ""Pass context to templates""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Forms and Validation"",
+        ""resources"": [
+          ""Django Forms Documentation"",
+          ""Django Validation Guide""
+        ],
+        ""milestones"": [
+          ""Create and use Django forms"",
+          ""Implement form validation"",
+          ""Work with formsets""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""User Authentication"",
+        ""resources"": [
+          ""Django Authentication Documentation"",
+          ""Django Permissions Guide""
+        ],
+        ""milestones"": [
+          ""Use Django's authentication system"",
+          ""Implement login and logout views"",
+          ""Manage permissions and groups"",
+          ""Handle password management""
+        ]
+      },
+      {
+        ""order"": 6,
+        ""topic"": ""Django Rest Framework (DRF)"",
+        ""resources"": [
+          ""DRF Official Documentation"",
+          ""DRF Tutorial""
+        ],
+        ""milestones"": [
+          ""Create serializers"",
+          ""Use ViewSets and Routers"",
+          ""Build API endpoints"",
+          ""Implement token and session authentication""
+        ]
+      },
+      {
+        ""order"": 7,
+        ""topic"": ""Testing in Django"",
+        ""resources"": [
+          ""Django Testing Documentation"",
+          ""Unit Testing Guide""
+        ],
+        ""milestones"": [
+          ""Write tests using Django TestCase"",
+          ""Create unit tests"",
+          ""Perform integration tests""
+        ]
+      },
+      {
+        ""order"": 8,
+        ""topic"": ""Deployment"",
+        ""resources"": [
+          ""Django Deployment Guide"",
+          ""Gunicorn Documentation"",
+          ""Nginx Configuration Guide""
+        ],
+        ""milestones"": [
+          ""Serve static and media files"",
+          ""Use Gunicorn for deployment"",
+          ""Configure Nginx"",
+          ""Deploy to Heroku, AWS, or GCP""
+        ]
+      },
+      {
+        ""order"": 9,
+        ""topic"": ""Performance Optimization"",
+        ""resources"": [
+          ""Django Performance Optimization Guide"",
+          ""Caching Strategies Documentation"",
+          ""Celery and Redis Guide""
+        ],
+        ""milestones"": [
+          ""Optimize database queries"",
+          ""Implement caching strategies"",
+          ""Use database indexing"",
+          ""Handle asynchronous tasks with Celery and Redis""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Python Programming"",
+      ""Basic SQL Knowledge""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""Learning Django from Basics"", ""prerequisites"": [""Python""], ""learning_path"": [{""order"": 1, ""topic"": ""Python Basics"", ""resources"": [""Official Python Tutorial"", ""Codecademy Python Course""], ""milestones"": [""Understand basic syntax"", ""Work with variables and data types"", ""Implement control flow statements""]}, {""order"": 2, ""topic"": ""Data Structures and Algorithms in Python"", ""resources"": [""LeetCode"", ""GeeksforGeeks""], ""milestones"": [""Implement arrays and linked lists"", ""Understand hash tables"", ""Implement sorting algorithms""]}, {""order"": 3, ""topic"": ""Object-Oriented Programming (OOP) in Python"", ""resources"": [""Real Python OOP Guide"", ""Python OOP Tutorial""], ""milestones"": [""Define classes and objects"", ""Implement inheritance"", ""Understand polymorphism""]}, {""order"": 4, ""topic"": ""Package Managers: Pip and Conda"", ""resources"": [""Pip Documentation"", ""Conda Documentation""], ""milestones"": [""Install and manage packages with pip"", ""Create and manage environments with conda""]}, {""order"": 5, ""topic"": ""Introduction to Django"", ""resources"": [""Django Official Documentation"", ""Django Tutorial by MDN Web Docs""], ""milestones"": [""Set up a Django development environment"", ""Create a basic Django project""]}, {""order"": 6, ""topic"": ""Django Models and Databases"", ""resources"": [""Django Models Documentation"", ""Django ORM Tutorial""], ""milestones"": [""Define models to represent data"", ""Interact with databases using the Django ORM"", ""Perform CRUD operations""]}, {""order"": 7, ""topic"": ""Django Views and Templates"", ""resources"": [""Django Views Documentation"", ""Django Templates Documentation""], ""milestones"": [""Create views to handle requests"", ""Build dynamic web pages with templates"", ""Implement URL routing""]}, {""order"": 8, ""topic"": ""Django Forms"", ""resources"": [""Django Forms Documentation"", ""Django Form Example Tutorial""], ""milestones"": [""Create forms to handle user input"", ""Validate form data"", ""Process form submissions""]}, {""order"": 9, ""topic"": ""Testing in Django"", ""resources"": [""Django Testing Documentation"", ""Python unittest Documentation""], ""milestones"": [""Write unit tests for Django applications"", ""Use pytest for testing""]}, {""order"": 10, ""topic"": ""Deployment"", ""resources"": [""Django Deployment Checklist"", ""How to deploy Django""], ""milestones"": [""Deploy a Django application to a production environment""]}], ""dependencies"": [""HTML"", ""CSS"", ""JavaScript (Optional)""]}}"
+How to learn Javascript from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""JavaScript Fundamentals"",
+    ""prerequisites"": [
+      ""Basic HTML and CSS Knowledge""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""JavaScript Basics"",
+        ""resources"": [
+          ""JavaScript MDN Documentation"",
+          ""JavaScript for Beginners Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand variables and data types"",
+          ""Use operators and expressions"",
+          ""Implement control structures (if, switch, loops)"",
+          ""Write functions and understand scope"",
+          ""Handle errors using try-catch""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Advanced JavaScript"",
+        ""resources"": [
+          ""JavaScript Closures Guide"",
+          ""Promises and Async/Await Documentation"",
+          ""ES6+ Features Guide""
+        ],
+        ""milestones"": [
+          ""Understand closures"",
+          ""Work with Promises and async/await"",
+          ""Implement event-driven programming"",
+          ""Understand prototypes and inheritance"",
+          ""Use ES6+ features (arrow functions, destructuring, spread/rest operators)""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""DOM Manipulation"",
+        ""resources"": [
+          ""DOM Manipulation Guide"",
+          ""JavaScript Events Documentation""
+        ],
+        ""milestones"": [
+          ""Query and manipulate DOM elements"",
+          ""Add and manage event listeners"",
+          ""Create and modify DOM elements"",
+          ""Handle forms and user input""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Web APIs"",
+        ""resources"": [
+          ""Fetch API Documentation"",
+          ""XMLHttpRequest Guide"",
+          ""Web Storage API Documentation"",
+          ""Geolocation and WebSockets Guide""
+        ],
+        ""milestones"": [
+          ""Use Fetch API for network requests"",
+          ""Understand XMLHttpRequest"",
+          ""Work with LocalStorage and SessionStorage"",
+          ""Implement Geolocation and WebSockets""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Basic Programming Concepts""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""JavaScript Fundamentals"", ""prerequisites"": [""Basic Computer Skills"", ""Understanding of HTML/CSS (Optional)""], ""learning_path"": [{""order"": 1, ""topic"": ""Introduction to JavaScript"", ""resources"": [""MDN JavaScript Guide"", ""FreeCodeCamp JavaScript Algorithms and Data Structures Certification"", ""roadmap.sh JavaScript Roadmap""], ""milestones"": [""Understand what JavaScript is and its role in web development"", ""Set up a JavaScript development environment"", ""Learn about the history and versions of JavaScript""]}, {""order"": 2, ""topic"": ""Variables and Data Types"", ""resources"": [""MDN JavaScript Guide - Variables"", ""Eloquent JavaScript - Chapter 2: Program Structure""], ""milestones"": [""Declare and initialize variables using var, let, and const"", ""Understand JavaScript's primitive data types (string, number, boolean, null, undefined, symbol, bigint)"", ""Learn about variable scoping and hoisting""]}, {""order"": 3, ""topic"": ""Operators and Expressions"", ""resources"": [""MDN JavaScript Guide - Operators"", ""JavaScript.info - Basic Operators, Maths""], ""milestones"": [""Understand arithmetic, comparison, logical, and assignment operators"", ""Write expressions to perform calculations and make comparisons"", ""Learn about operator precedence""]}, {""order"": 4, ""topic"": ""Control Flow"", ""resources"": [""MDN JavaScript Guide - Control Flow and Error Handling"", ""JavaScript.info - Conditional branching: if, '?'"", ""JavaScript.info - Logical Operators""], ""milestones"": [""Use if...else statements for conditional execution"", ""Use switch statements for multi-way branching"", ""Use loops (for, while, do...while) to iterate over code blocks""]}, {""order"": 5, ""topic"": ""Functions"", ""resources"": [""MDN JavaScript Guide - Functions"", ""Eloquent JavaScript - Chapter 3: Functions""], ""milestones"": [""Define and call functions"", ""Understand function parameters and return values"", ""Learn about function scope and closures""]}, {""order"": 6, ""topic"": ""Objects"", ""resources"": [""MDN JavaScript Guide - Working with Objects"", ""Eloquent JavaScript - Chapter 4: Data Structures: Objects and Arrays""], ""milestones"": [""Create and manipulate objects"", ""Understand object properties and methods"", ""Learn about object prototypes and inheritance""]}, {""order"": 7, ""topic"": ""Arrays"", ""resources"": [""MDN JavaScript Guide - Indexed collections"", ""JavaScript.info - Arrays""], ""milestones"": [""Create and manipulate arrays"", ""Understand array methods (push, pop, shift, unshift, splice, etc.)"", ""Iterate over arrays using loops and array methods (forEach, map, filter, reduce)""]}, {""order"": 8, ""topic"": ""DOM Manipulation"", ""resources"": [""MDN Web Docs - Document Object Model (DOM)"", ""FreeCodeCamp - How to Manipulate the DOM Using JavaScript""], ""milestones"": [""Access and modify HTML elements using JavaScript"", ""Respond to user events (clicks, form submissions, etc.)"", ""Dynamically update the content of a web page""]}], ""dependencies"": [""HTML"", ""CSS""]}}"
+How to learn React from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""React Fundamentals"",
+    ""prerequisites"": [
+      ""Basic JavaScript Knowledge"",
+      ""HTML and CSS Fundamentals""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Introduction to React"",
+        ""resources"": [
+          ""React Official Documentation"",
+          ""React for Beginners Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand React fundamentals"",
+          ""Learn JSX syntax"",
+          ""Understand component-based architecture"",
+          ""Work with props and state""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Functional Components and Hooks"",
+        ""resources"": [
+          ""React Hooks Documentation"",
+          ""Custom Hooks Guide""
+        ],
+        ""milestones"": [
+          ""Differentiate between stateless and stateful components"",
+          ""Use useState, useEffect, and useContext"",
+          ""Create custom hooks"",
+          ""Follow hook rules""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Component Lifecycle"",
+        ""resources"": [
+          ""React Lifecycle Methods Guide"",
+          ""useEffect Documentation""
+        ],
+        ""milestones"": [
+          ""Understand mounting, updating, and unmounting"",
+          ""Learn lifecycle methods in class components"",
+          ""Manage side-effects with useEffect""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""React Router"",
+        ""resources"": [
+          ""React Router Documentation"",
+          ""Nested Routes Tutorial""
+        ],
+        ""milestones"": [
+          ""Understand routing basics"",
+          ""Implement nested routes"",
+          ""Work with route parameters"",
+          ""Set up redirects""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""State Management"",
+        ""resources"": [
+          ""React Context API Documentation"",
+          ""Redux Official Guide""
+        ],
+        ""milestones"": [
+          ""Use Context API for state management"",
+          ""Learn Redux basics"",
+          ""Understand reducers and actions"",
+          ""Handle async actions with Redux Thunk/Saga""
+        ]
+      },
+      {
+        ""order"": 6,
+        ""topic"": ""Form Handling"",
+        ""resources"": [
+          ""React Form Handling Guide"",
+          ""Formik Documentation"",
+          ""React Hook Form Documentation""
+        ],
+        ""milestones"": [
+          ""Differentiate between controlled and uncontrolled components"",
+          ""Implement form validation"",
+          ""Use third-party libraries like Formik and React Hook Form""
+        ]
+      },
+      {
+        ""order"": 7,
+        ""topic"": ""Testing in React"",
+        ""resources"": [
+          ""Jest Documentation"",
+          ""React Testing Library Guide""
+        ],
+        ""milestones"": [
+          ""Write unit tests with Jest"",
+          ""Test React components with React Testing Library"",
+          ""Perform snapshot testing""
+        ]
+      },
+      {
+        ""order"": 8,
+        ""topic"": ""Performance Optimization"",
+        ""resources"": [
+          ""React Performance Optimization Guide"",
+          ""Code Splitting Documentation""
+        ],
+        ""milestones"": [
+          ""Implement lazy loading"",
+          ""Use code splitting"",
+          ""Apply memoization with React.memo, useMemo, and useCallback""
+        ]
+      },
+      {
+        ""order"": 9,
+        ""topic"": ""Deployment"",
+        ""resources"": [
+          ""Webpack Documentation"",
+          ""Vercel Deployment Guide"",
+          ""Netlify Deployment Guide""
+        ],
+        ""milestones"": [
+          ""Understand the build process (Webpack, Babel)"",
+          ""Deploy applications on Vercel and Netlify"",
+          ""Host static files""
+        ]
+      },
+      {
+        ""order"": 10,
+        ""topic"": ""Advanced Topics"",
+        ""resources"": [
+          ""Next.js Documentation"",
+          ""React Native Documentation""
+        ],
+        ""milestones"": [
+          ""Implement server-side rendering with Next.js"",
+          ""Understand static site generation"",
+          ""Explore React Native for mobile app development""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""JavaScript ES6+"",
+      ""Basic Understanding of APIs""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""React Learning Path"", ""prerequisites"": [""JavaScript Basics"", ""HTML Basics"", ""CSS Basics""], ""learning_path"": [{""order"": 1, ""topic"": ""React Basics"", ""resources"": [""React Official Documentation"", ""Create React App Documentation""], ""milestones"": [""Understand JSX syntax"", ""Create basic React components""]}, {""order"": 2, ""topic"": ""Components and Props"", ""resources"": [""React Tutorial"", ""Thinking in React""], ""milestones"": [""Build reusable components"", ""Pass data using props""]}, {""order"": 3, ""topic"": ""State Management"", ""resources"": [""React State Documentation"", ""Understanding State in React""], ""milestones"": [""Manage component state"", ""Handle user input""]}, {""order"": 4, ""topic"": ""Lifecycle Methods & Hooks"", ""resources"": [""React Lifecycle Methods Documentation"", ""React Hooks Documentation""], ""milestones"": [""Understand component lifecycle"", ""Use useState and useEffect hooks""]}, {""order"": 5, ""topic"": ""Conditional Rendering and Lists"", ""resources"": [""React Conditional Rendering Guide"", ""Rendering Lists in React""], ""milestones"": [""Render content conditionally"", ""Map data to create lists""]}, {""order"": 6, ""topic"": ""Forms and Events"", ""resources"": [""React Forms Documentation"", ""Handling Events in React""], ""milestones"": [""Create controlled forms"", ""Handle form submissions""]}, {""order"": 7, ""topic"": ""Networking (Fetch API)"", ""resources"": [""Fetch API Documentation"", ""Making API Requests in React""], ""milestones"": [""Fetch data from APIs"", ""Display data in components""]}, {""order"": 8, ""topic"": ""React Router"", ""resources"": [""React Router Documentation"", ""Using React Router for Navigation""], ""milestones"": [""Implement client-side routing"", ""Create multi-page applications""]}], ""dependencies"": [""Node.js"", ""NPM or Yarn""]}}"
+How to learn AWS from basics? ,"{
+  ""skill_tree"": {
+    ""title"": ""AWS Fundamentals"",
+    ""prerequisites"": [
+      ""Basic Cloud Computing Concepts""
+    ],
+    ""learning_path"": [
+      {
+        ""order"": 1,
+        ""topic"": ""Fundamentals"",
+        ""resources"": [
+          ""AWS Documentation"",
+          ""Cloud Academy Training""
+        ],
+        ""milestones"": [
+          ""Understand Cloud concepts"",
+          ""Learn AWS global infrastructure"",
+          ""Understand Regions and Availability Zones"",
+          ""Explore AWS Pricing models""
+        ]
+      },
+      {
+        ""order"": 2,
+        ""topic"": ""Core AWS Services"",
+        ""resources"": [
+          ""AWS EC2 Guide"",
+          ""AWS S3 Documentation"",
+          ""AWS RDS Guide"",
+          ""AWS IAM Documentation""
+        ],
+        ""milestones"": [
+          ""Launch and manage EC2 instances"",
+          ""Store and retrieve data using S3"",
+          ""Set up and manage relational databases with RDS"",
+          ""Manage access and permissions with IAM""
+        ]
+      },
+      {
+        ""order"": 3,
+        ""topic"": ""Networking"",
+        ""resources"": [
+          ""AWS VPC Guide"",
+          ""AWS Route 53 Documentation"",
+          ""AWS ELB Guide"",
+          ""AWS CloudFront Documentation""
+        ],
+        ""milestones"": [
+          ""Configure and manage VPCs"",
+          ""Set up DNS with Route 53"",
+          ""Implement load balancing with ELB"",
+          ""Use CloudFront for content delivery""
+        ]
+      },
+      {
+        ""order"": 4,
+        ""topic"": ""Security and Monitoring"",
+        ""resources"": [
+          ""AWS Security Groups Guide"",
+          ""AWS CloudWatch Documentation"",
+          ""AWS CloudTrail Guide"",
+          ""AWS Config Documentation""
+        ],
+        ""milestones"": [
+          ""Implement security groups and NACLs"",
+          ""Monitor resources with CloudWatch"",
+          ""Track API activity with CloudTrail"",
+          ""Assess compliance with AWS Config""
+        ]
+      },
+      {
+        ""order"": 5,
+        ""topic"": ""Serverless Computing"",
+        ""resources"": [
+          ""AWS Lambda Guide"",
+          ""AWS API Gateway Documentation"",
+          ""AWS DynamoDB Guide"",
+          ""AWS Step Functions Documentation""
+        ],
+        ""milestones"": [
+          ""Build serverless applications with Lambda"",
+          ""Create APIs with API Gateway"",
+          ""Use DynamoDB for NoSQL databases"",
+          ""Orchestrate workflows with Step Functions""
+        ]
+      },
+      {
+        ""order"": 6,
+        ""topic"": ""Automation and Orchestration"",
+        ""resources"": [
+          ""AWS Elastic Beanstalk Guide"",
+          ""AWS CloudFormation Documentation"",
+          ""AWS CodeDeploy/CodePipeline Guide"",
+          ""AWS OpsWorks Documentation""
+        ],
+        ""milestones"": [
+          ""Deploy applications with Elastic Beanstalk"",
+          ""Automate infrastructure with CloudFormation"",
+          ""Implement CI/CD with CodeDeploy/CodePipeline"",
+          ""Manage applications with OpsWorks""
+        ]
+      },
+      {
+        ""order"": 7,
+        ""topic"": ""Storage Solutions"",
+        ""resources"": [
+          ""AWS EBS Documentation"",
+          ""AWS Glacier Guide"",
+          ""AWS Storage Gateway Documentation"",
+          ""AWS FSx Documentation""
+        ],
+        ""milestones"": [
+          ""Manage block storage with EBS"",
+          ""Archive data with Glacier"",
+          ""Integrate on-premises storage with Storage Gateway"",
+          ""Use FSx for high-performance file systems""
+        ]
+      }
+    ],
+    ""dependencies"": [
+      ""Networking Fundamentals"",
+      ""Linux Fundamentals""
+    ]
+  }
+}","{""skill_tree"": {""title"": ""AWS Fundamentals Learning Path"", ""prerequisites"": [""Basic Computer Skills"", ""Understanding of Operating Systems"", ""Networking Fundamentals""], ""learning_path"": [{""order"": 1, ""topic"": ""Introduction to Cloud Computing and AWS"", ""resources"": [""AWS Certified Cloud Practitioner Training"", ""AWS Whitepapers (e.g., Overview of Amazon Web Services)""], ""milestones"": [""Understand the benefits of cloud computing"", ""Identify different cloud service models (IaaS, PaaS, SaaS)"", ""Create an AWS account""]}, {""order"": 2, ""topic"": ""AWS Core Services - Compute (EC2)"", ""resources"": [""AWS EC2 Documentation"", ""AWS Free Tier EC2 Tutorials""], ""milestones"": [""Launch an EC2 instance"", ""Connect to an EC2 instance (SSH)"", ""Understand different EC2 instance types"", ""Configure security groups""]}, {""order"": 3, ""topic"": ""AWS Core Services - Storage (S3)"", ""resources"": [""AWS S3 Documentation"", ""AWS S3 Tutorials"", ""S3 Best Practices Guide""], ""milestones"": [""Create an S3 bucket"", ""Upload and download objects to S3"", ""Configure S3 bucket policies"", ""Understand S3 storage classes""]}, {""order"": 4, ""topic"": ""AWS Core Services - Databases (RDS)"", ""resources"": [""AWS RDS Documentation"", ""AWS RDS Tutorials""], ""milestones"": [""Launch an RDS instance (e.g., MySQL)"", ""Connect to an RDS database"", ""Perform basic database operations"", ""Understand database backups and recovery""]}, {""order"": 5, ""topic"": ""AWS Identity and Access Management (IAM)"", ""resources"": [""AWS IAM Documentation"", ""AWS IAM Best Practices Guide""], ""milestones"": [""Create IAM users and groups"", ""Assign permissions to IAM users and groups"", ""Understand IAM roles"", ""Implement multi-factor authentication (MFA)""]}, {""order"": 6, ""topic"": ""AWS Networking (VPC)"", ""resources"": [""AWS VPC Documentation"", ""AWS VPC Tutorials""], ""milestones"": [""Create a VPC"", ""Create subnets (public and private)"", ""Configure route tables"", ""Set up an internet gateway"", ""Understand Network ACLs and Security Groups""]}, {""order"": 7, ""topic"": ""AWS Monitoring and Logging (CloudWatch & CloudTrail)"", ""resources"": [""AWS CloudWatch Documentation"", ""AWS CloudTrail Documentation""], ""milestones"": [""Monitor EC2 instance metrics with CloudWatch"", ""Set up CloudWatch alarms"", ""Enable CloudTrail logging"", ""Analyze CloudTrail logs""]}, {""order"": 8, ""topic"": ""AWS Automation and Infrastructure as Code (CloudFormation)"", ""resources"": [""AWS CloudFormation Documentation"", ""AWS CloudFormation Tutorials""], ""milestones"": [""Create a simple CloudFormation template"", ""Deploy a CloudFormation stack"", ""Understand CloudFormation parameters and outputs""]}], ""dependencies"": [""Linux Command Line"", ""Basic Networking Concepts"", ""Security Best Practices""], ""additional_resources"": [""https://roadmap.sh/aws-devops"", ""https://aws.amazon.com/getting-started/""]}}"

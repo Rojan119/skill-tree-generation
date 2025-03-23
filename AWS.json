@@ -1,0 +1,75 @@
+
+{
+  "skill_tree": {
+    "title": "AWS Fundamentals",
+    "prerequisites": [
+      "Basic Cloud Computing Concepts"
+    ],
+    "learning_path": [
+      {
+        "order": 1,
+        "topic": "Introduction to AWS",
+        "resources": [
+          "AWS Documentation",
+          "Cloud Academy Training"
+        ],
+        "milestones": [
+          "Understand AWS services and architecture",
+          "Create an AWS account"
+        ]
+      },
+      {
+        "order": 2,
+        "topic": "Networking and Security",
+        "resources": [
+          "AWS VPC Guide",
+          "Security Best Practices for AWS"
+        ],
+        "milestones": [
+          "Configure VPCs and subnets",
+          "Implement security measures"
+        ]
+      },
+      {
+        "order": 3,
+        "topic": "Compute Services",
+        "resources": [
+          "EC2 Instance Types",
+          "AWS Lambda Guide"
+        ],
+        "milestones": [
+          "Launch and manage EC2 instances",
+          "Deploy serverless applications"
+        ]
+      },
+      {
+        "order": 4,
+        "topic": "Storage and Databases",
+        "resources": [
+          "S3 Storage Guide",
+          "RDS Database Options"
+        ],
+        "milestones": [
+          "Store and manage data in S3",
+          "Create and manage relational databases"
+        ]
+      },
+      {
+        "order": 5,
+        "topic": "Developer Tools",
+        "resources": [
+          "AWS CLI Reference",
+          "CloudFormation Tutorial"
+        ],
+        "milestones": [
+          "Use AWS CLI for automation",
+          "Deploy infrastructure using CloudFormation"
+        ]
+      }
+    ],
+    "dependencies": [
+      "Networking Fundamentals",
+      "Linux Fundamentals"
+    ]
+  }
+}

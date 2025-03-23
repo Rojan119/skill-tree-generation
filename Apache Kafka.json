@@ -1,0 +1,74 @@
+{
+    "skill_tree": {
+      "title": "Apache Kafka",
+      "prerequisites": [
+        "Basic Programming Concepts",
+        "Data Streaming Fundamentals"
+      ],
+      "learning_path": [
+        {
+          "order": 1,
+          "topic": "Kafka Architecture and Concepts",
+          "resources": [
+            "Kafka Documentation",
+            "Confluent Kafka Course"
+          ],
+          "milestones": [
+            "Understand Kafka components and terminology",
+            "Identify use cases for Kafka"
+          ]
+        },
+        {
+          "order": 2,
+          "topic": "Kafka Producer API",
+          "resources": [
+            "Kafka Python Client Guide",
+            "Java Producer Example"
+          ],
+          "milestones": [
+            "Send messages to Kafka topics",
+            "Configure producer settings"
+          ]
+        },
+        {
+          "order": 3,
+          "topic": "Kafka Consumer API",
+          "resources": [
+            "Kafka Consumer API Guide",
+            "Python Consumer Example"
+          ],
+          "milestones": [
+            "Consume messages from Kafka topics",
+            "Handle message processing and error handling"
+          ]
+        },
+        {
+          "order": 4,
+          "topic": "Kafka Administration and Monitoring",
+          "resources": [
+            "Kafka Admin Client Guide",
+            "Kafka Monitoring Tools"
+          ],
+          "milestones": [
+            "Create and manage Kafka topics",
+            "Monitor Kafka clusters"
+          ]
+        },
+        {
+          "order": 5,
+          "topic": "Advanced Kafka Concepts",
+          "resources": [
+            "Kafka Streams Guide",
+            "Kafka Connect"
+          ],
+          "milestones": [
+            "Explore Kafka Streams for data processing",
+            "Utilize Kafka Connect for data integration"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Hadoop Ecosystem (Optional)"
+      ]
+    }
+  }

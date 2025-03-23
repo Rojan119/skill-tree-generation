@@ -1,0 +1,863 @@
+ground_truths = {
+  "PostgreSQL, Spring Boot": """## PostgreSQL
+
+1. Fundamentals
+    - Relational database concepts
+    - SQL basics
+    - PostgreSQL features
+    - Installation and configuration
+2. Data Definition Language (DDL)
+    - Table creation
+    - Indexes
+    - Views
+    - Schemas
+3. Data Manipulation Language (DML)
+    - SELECT
+    - INSERT
+    - UPDATE
+    - DELETE
+    - JOINs
+4. Data Control Language (DCL)
+    - User management
+    - Permission settings
+    - Roles
+5. Advanced features
+    - Stored procedures
+    - Triggers
+    - Functions
+    - Transactions
+6. Performance tuning
+    - EXPLAIN
+    - Index optimization
+    - Query optimization
+    - Statistics
+
+## Spring Boot
+
+1. Java Fundamentals
+    - Object-Oriented Programming
+    - Exception Handling
+    - Collections Framework
+    - Lambda Expressions and Stream API
+2. Spring Framework Basics
+    - Dependency Injection (DI)
+    - Aspect-Oriented Programming (AOP)
+    - Spring Beans
+    - Spring Configuration
+3. Introduction to Spring Boot
+    - Spring Boot Overview
+    - Project Structure
+    - Application Configuration
+    - Auto-configuration
+4. Web Development
+    - Spring MVC
+    - RESTful API
+    - Thymeleaf Template Engine
+    - Validation
+5. Data Access
+    - JPA/Hibernate
+    - Spring Data JPA
+    - Transaction Management
+    - Database Connection Configuration
+6. Security
+    - Spring Security
+    - Authentication and Authorization
+    - OAuth2
+    - CSRF Protection
+7. Testing
+    - JUnit
+    - Mockito
+    - Spring Boot Test
+    - Integration Testing
+8. Advanced Topics
+    - Actuators
+    - Caching
+    - Messaging (RabbitMQ, Kafka)
+    - Batch Processing
+9. Deployment and Operations
+    - Build Tools (Maven, Gradle)
+    - Containerization (Docker)
+    - Cloud Deployment (AWS, Azure, GCP)
+    - CI/CD
+10. Performance and Scalability
+    - Profiling
+    - Load Testing
+    - Microservices Architecture
+    - Spring Cloud
+  """,
+  
+  "Python, Django": """## Python
+
+1. Fundamentals
+    - Python syntax
+    - Data types (lists, tuples, dictionaries, sets)
+    - Control flow (loops, conditionals)
+    - Functions and modules
+    - File handling
+2. Object-Oriented Programming (OOP)
+    - Classes and objects
+    - Inheritance and polymorphism
+    - Encapsulation
+    - Magic methods
+3. Advanced Topics
+    - Iterators and Generators
+    - Decorators
+    - Context managers
+    - Multithreading and Multiprocessing
+4. Python Libraries
+    - NumPy
+    - Pandas
+    - Matplotlib/Seaborn
+    - Requests
+5. Python for Web Development
+    - Flask (optional)
+    - Django (detailed below)
+
+## Django
+
+1. Introduction to Django
+    - Django Overview
+    - MVT architecture
+    - Project structure
+    - Configuration
+2. Models and ORM
+    - Defining models
+    - Migrations
+    - Querysets
+    - Relationships (OneToMany, ManyToMany)
+3. Views and Templates
+    - Function-based views (FBV)
+    - Class-based views (CBV)
+    - Template rendering
+    - Context passing
+4. Forms and Validation
+    - Django Forms
+    - Validation methods
+    - Formsets
+5. User Authentication
+    - Django authentication system
+    - Login/logout views
+    - Permission and Groups
+    - Password management
+6. Django Rest Framework (DRF)
+    - Serializers
+    - ViewSets and Routers
+    - API Endpoints
+    - Token and Session Authentication
+7. Testing in Django
+    - Django TestCase
+    - Unit tests
+    - Integration tests
+8. Deployment
+    - Serving static and media files
+    - Gunicorn
+    - Nginx configuration
+    - Heroku, AWS, GCP deployment
+9. Performance Optimization
+    - Query optimization
+    - Caching strategies
+    - Database indexing
+    - Asynchronous tasks (Celery, Redis)
+  """,
+  
+  "JavaScript, React": """## JavaScript
+
+1. JavaScript Basics
+    - Variables and data types
+    - Operators and expressions
+    - Control structures (if, switch, loops)
+    - Functions and scope
+    - Error handling (try, catch)
+2. Advanced JavaScript
+    - Closures
+    - Promises and async/await
+    - Event-driven programming
+    - Prototypes and inheritance
+    - ES6+ Features (Arrow functions, destructuring, spread/rest operators)
+3. DOM Manipulation
+    - Querying DOM elements
+    - Event listeners
+    - Creating and modifying elements
+    - Forms and input handling
+4. Web APIs
+    - Fetch API
+    - XMLHttpRequest
+    - LocalStorage and SessionStorage
+    - Geolocation, WebSockets
+
+## React
+
+1. Introduction to React
+    - React fundamentals
+    - JSX syntax
+    - Component-based architecture
+    - Props and state
+2. Functional Components and Hooks
+    - Stateless vs stateful components
+    - useState, useEffect, useContext
+    - Custom hooks
+    - Hook rules
+3. Component Lifecycle
+    - Mounting, updating, unmounting
+    - Lifecycle methods in class components
+    - useEffect for managing side-effects
+4. React Router
+    - Routing basics
+    - Nested routes
+    - Route parameters
+    - Redirects
+5. State Management
+    - Context API
+    - Redux basics
+    - Reducers and actions
+    - Redux Thunk/Saga for async actions
+6. Form Handling
+    - Controlled vs uncontrolled components
+    - Form validation
+    - Third-party libraries (Formik, React Hook Form)
+7. Testing in React
+    - Unit testing with Jest
+    - React Testing Library
+    - Snapshot testing
+8. Performance Optimization
+    - Lazy loading
+    - Code splitting
+    - Memoization (React.memo, useMemo, useCallback)
+9. Deployment
+    - Build process (Webpack, Babel)
+    - Deployment on Vercel, Netlify
+    - Hosting static files
+10. Advanced Topics
+    - Server-side rendering (Next.js)
+    - Static site generation
+    - React Native for mobile apps
+  """,
+  
+  "AWS, Terraform": """## AWS
+
+1. Fundamentals
+    - Cloud concepts
+    - AWS global infrastructure
+    - Regions and availability zones
+    - Pricing models
+2. Core AWS Services
+    - EC2 (Elastic Compute Cloud)
+    - S3 (Simple Storage Service)
+    - RDS (Relational Database Service)
+    - IAM (Identity and Access Management)
+3. Networking
+    - VPC (Virtual Private Cloud)
+    - Route 53 (DNS service)
+    - ELB (Elastic Load Balancing)
+    - CloudFront (CDN)
+4. Security and Monitoring
+    - Security groups and NACLs
+    - CloudWatch
+    - CloudTrail
+    - AWS Config
+5. Serverless Computing
+    - AWS Lambda
+    - API Gateway
+    - DynamoDB
+    - Step Functions
+6. Automation and Orchestration
+    - Elastic Beanstalk
+    - CloudFormation
+    - AWS CodeDeploy/CodePipeline
+    - OpsWorks
+7. Storage Solutions
+    - EBS (Elastic Block Store)
+    - Glacier
+    - Storage Gateway
+    - FSx for Lustre/Windows
+
+## Terraform
+
+1. Introduction to Infrastructure as Code (IaC)
+    - IaC concepts
+    - Benefits of using Terraform
+    - Terraform architecture (providers, resources, modules)
+2. Terraform Basics
+    - Installation and setup
+    - Configuration files (.tf files)
+    - Terraform commands (init, apply, plan, destroy)
+3. Providers and Resources
+    - AWS provider
+    - Defining and managing resources (EC2, S3, IAM)
+    - Dependencies and resource graphs
+4. State Management
+    - Understanding state files
+    - Remote state storage
+    - State locking
+5. Modules and Reusability
+    - Creating and using modules
+    - Input and output variables
+    - Module registry
+6. Version Control and Collaboration
+    - Storing configurations in version control (Git)
+    - Workspaces for environment separation
+    - Managing state across teams
+7. Advanced Terraform
+    - Provisioners
+    - Data sources
+    - Dynamic blocks and for_each
+    - Terraform Cloud
+8. Testing and Validation
+    - Terraform Validate and Plan
+    - Sentinel (policy as code)
+    - Terratest for automated testing
+9. Deployment Automation
+    - Integrating with CI/CD pipelines
+    - Automating infrastructure changes
+    - Handling rollbacks
+10. Best Practices
+    - Organizing Terraform projects
+    - Managing secrets
+    - Handling environment drift
+  """,
+    "Python, Django, SQLite, FastAPI": """## Python
+
+1. Python Basics
+    - Data types and variables
+    - Functions and modules
+    - Exception handling
+    - File handling
+2. Object-Oriented Programming
+    - Classes and objects
+    - Inheritance and polymorphism
+    - Encapsulation
+3. Advanced Python
+    - Generators and Iterators
+    - Decorators
+    - Multithreading and Multiprocessing
+
+## Django
+
+1. Introduction to Django
+    - Django Overview
+    - MVT architecture
+    - Project structure
+    - Configuration
+2. Models and ORM
+    - Model definitions
+    - Migrations
+    - Querysets and filters
+3. Views and Templates
+    - Class-based and function-based views
+    - Template rendering
+    - Context and template inheritance
+4. Authentication
+    - Built-in authentication
+    - User model customization
+    - Authorization and permissions
+5. Django Rest Framework (DRF)
+    - Serializers and Views
+    - Viewsets and Routers
+    - Authentication (Token, Session)
+
+## SQLite
+
+1. SQLite Fundamentals
+    - Database file structure
+    - Data types and constraints
+    - Indexes and foreign keys
+2. DDL and DML in SQLite
+    - Table creation
+    - SELECT, INSERT, UPDATE, DELETE
+    - Indexes and optimizations
+
+## FastAPI
+
+1. Introduction to FastAPI
+    - FastAPI basics
+    - Async support and performance
+    - Request handling
+    - Path parameters and Query parameters
+2. Data Validation
+    - Pydantic models
+    - Validation rules and custom validation
+3. API Development
+    - Dependency Injection
+    - Background tasks
+    - Asynchronous routes
+4. Database Integration
+    - SQLAlchemy with FastAPI
+    - CRUD operations
+    - Dependency injection for database sessions
+5. Deployment
+    - Uvicorn and Gunicorn
+    - Dockerizing FastAPI apps
+  """,
+
+  "Python, Django, Docker": """## Python
+
+1. Python Fundamentals
+    - Syntax, loops, and conditionals
+    - Functions and modules
+    - Object-Oriented Programming
+2. Libraries and Frameworks
+    - NumPy, Pandas
+    - Requests, Flask (optional)
+3. Testing in Python
+    - Unit testing with unittest or pytest
+    - Mocking and patching
+
+## Django
+
+1. Django Overview
+    - MVT architecture
+    - App structure
+    - Settings and configurations
+2. Models and ORM
+    - Model creation and migrations
+    - Querysets and relationships
+    - Using PostgreSQL, MySQL, SQLite with Django
+3. Views and Templating
+    - Function and class-based views
+    - Template rendering and context passing
+4. Forms and Authentication
+    - Form handling and validation
+    - User authentication and permissions
+5. Django Rest Framework (DRF)
+    - API views and routers
+    - Serializers and validation
+    - Token and session authentication
+
+## Docker
+
+1. Docker Fundamentals
+    - Docker architecture (containers, images, volumes)
+    - Dockerfile creation
+    - Building and running Docker containers
+2. Docker Compose
+    - Defining services in docker-compose.yml
+    - Multi-container applications
+    - Networking in Docker Compose
+3. Docker for Development
+    - Using Docker for local Django development
+    - Linking Django with PostgreSQL in Docker
+    - Volume mounting for persistent storage
+4. Docker in Production
+    - Optimizing Docker images
+    - Deployment strategies with Docker Swarm and Kubernetes
+    - Scaling and orchestration
+  """,
+
+  "JavaScript, Node.js, MongoDB, Express.js": """## JavaScript
+
+1. JavaScript Basics
+    - Data types and variables
+    - Functions and closures
+    - Promises and async/await
+2. DOM Manipulation
+    - Event handling
+    - DOM traversal and manipulation
+    - Forms and inputs
+
+## Node.js
+
+1. Node.js Overview
+    - Event-driven architecture
+    - Non-blocking I/O
+    - Modules (CommonJS vs ES6)
+2. Core Modules
+    - File System (fs)
+    - HTTP/HTTPS
+    - Streams and Buffers
+3. Asynchronous Programming
+    - Event loop and callbacks
+    - Promises and async/await
+4. Package Management
+    - npm and yarn
+    - Version management and package.json
+5. REST API Development
+    - HTTP methods and routing
+    - Middleware in Express.js
+    - Error handling
+
+## MongoDB
+
+1. MongoDB Basics
+    - Document-oriented database model
+    - Collections and documents
+    - CRUD operations
+2. Schema Design
+    - Data modeling in MongoDB
+    - Embedding vs Referencing
+    - Indexing for performance
+3. Aggregation Framework
+    - Pipelines
+    - Stages (match, group, project)
+    - Aggregation queries
+
+## Express.js
+
+1. Express.js Basics
+    - Setting up Express.js server
+    - Routing and middlewares
+    - Handling requests and responses
+2. Templating Engines
+    - Using Pug or EJS
+    - Dynamic content rendering
+3. REST API Development
+    - CRUD operations with MongoDB
+    - Using Mongoose for data validation
+    - Error handling and middleware
+4. Authentication
+    - Session management
+    - JWT-based authentication
+    - Passport.js integration
+  """,
+
+  "AWS, Terraform, Kubernetes": """## AWS
+
+1. AWS Core Services
+    - EC2, S3, RDS, IAM
+    - Elastic Load Balancing (ELB)
+    - CloudWatch and CloudTrail
+2. Networking
+    - VPC setup
+    - Subnets, Route tables, and Internet Gateway
+    - Security Groups and NACLs
+3. AWS Serverless
+    - Lambda functions
+    - API Gateway
+    - DynamoDB
+4. Automation
+    - CloudFormation for Infrastructure as Code (IaC)
+    - AWS CodePipeline and CodeDeploy
+    - Elastic Beanstalk for deployment
+
+## Terraform
+
+1. Terraform Fundamentals
+    - Installation and setup
+    - Providers and modules
+    - Configuration files (.tf files)
+2. Terraform Commands
+    - init, plan, apply, destroy
+    - Managing state and state locking
+    - Remote state storage with S3
+3. Advanced Terraform
+    - Modules and reusable code
+    - Data sources and outputs
+    - Dependencies and provisioners
+
+## Kubernetes
+
+1. Kubernetes Basics
+    - Kubernetes architecture (Nodes, Pods, Services)
+    - Kubernetes Control Plane (API server, Scheduler, Controller Manager)
+    - Running containers in Pods
+2. Kubernetes Objects
+    - Deployments and ReplicaSets
+    - Services (ClusterIP, NodePort, LoadBalancer)
+    - ConfigMaps and Secrets
+3. Networking in Kubernetes
+    - Ingress controllers
+    - Service discovery and DNS
+    - Network policies
+4. Helm Charts
+    - Package management with Helm
+    - Creating and deploying Helm charts
+5. Kubernetes in Production
+    - Monitoring with Prometheus and Grafana
+    - Logging with Elasticsearch, Fluentd, Kibana (EFK)
+    - Scaling with Horizontal Pod Autoscalers (HPA)
+  """,
+  "Python, Flask, Docker, PostgreSQL": """## Python
+
+1. Python Fundamentals
+    - Data types, loops, and conditionals
+    - Functions and modules
+    - File handling and I/O
+    - Object-Oriented Programming (OOP)
+2. Python Libraries
+    - Flask, SQLAlchemy, Pandas
+    - Requests for HTTP requests
+    - Pytest for testing
+
+## Flask
+
+1. Flask Basics
+    - Installation and setup
+    - Flask routing and views
+    - Request and response handling
+    - Templating with Jinja2
+2. Database Integration
+    - SQLAlchemy ORM with Flask
+    - Flask-Migrate for database migrations
+    - PostgreSQL connection and configuration
+    - Query optimization in Flask apps
+3. REST API Development
+    - RESTful routing
+    - Flask-RESTful extension
+    - Authentication and authorization with JWT
+    - Flask Blueprints for app modularization
+
+## Docker
+
+1. Docker Fundamentals
+    - Docker containers and images
+    - Dockerfile creation and optimization
+    - Managing containers and volumes
+    - Networking in Docker
+2. Docker Compose
+    - Defining multi-container applications
+    - Using Docker Compose with Flask and PostgreSQL
+    - Volume persistence for databases
+3. Docker for Deployment
+    - Building and running Flask apps in Docker
+    - Docker swarm and orchestration
+    - Optimizing Docker images for production
+
+## PostgreSQL
+
+1. PostgreSQL Basics
+    - Installation and configuration
+    - Basic SQL commands (SELECT, INSERT, UPDATE, DELETE)
+    - Data types, indexes, and constraints
+    - Relationships between tables (foreign keys)
+2. Advanced PostgreSQL
+    - Transactions and locking
+    - Stored procedures and triggers
+    - Full-text search
+    - Query optimization and indexing
+3. PostgreSQL with Python
+    - Using psycopg2 or SQLAlchemy with PostgreSQL
+    - Database connection pooling
+    - Migrations with Alembic/Flask-Migrate
+  """,
+
+  "Python, FastAPI, Redis, Docker": """## Python
+
+1. Python Basics
+    - Variables, control flow, functions
+    - Error handling and logging
+    - Object-Oriented Programming (OOP)
+2. Python Libraries
+    - Asyncio for async programming
+    - SQLAlchemy for database interaction
+    - Requests and aiohttp for async HTTP requests
+
+## FastAPI
+
+1. FastAPI Basics
+    - Introduction to FastAPI and asynchronous requests
+    - Path and query parameters
+    - Data validation with Pydantic
+    - FastAPI routing and dependency injection
+2. API Development
+    - Building CRUD APIs
+    - Authentication with OAuth2 and JWT
+    - Handling background tasks and WebSockets
+3. Testing in FastAPI
+    - TestClient and Pytest integration
+    - Writing unit and integration tests
+    - Mocking dependencies and external APIs
+
+## Redis
+
+1. Redis Basics
+    - Key-value store concepts
+    - Installing and setting up Redis
+    - Basic Redis commands (SET, GET, EXPIRE)
+2. Redis with Python
+    - Using redis-py for interaction with Redis
+    - Redis as a caching layer in FastAPI
+    - Session management and token storage
+3. Advanced Redis
+    - Redis Pub/Sub for real-time messaging
+    - Redis streams and consumer groups
+    - Using Redis for task queues with RQ or Celery
+
+## Docker
+
+1. Docker Overview
+    - Building and running Docker containers
+    - Networking between containers
+    - Dockerfile best practices
+2. Docker Compose
+    - Using Docker Compose with FastAPI, Redis, and PostgreSQL
+    - Configuring volumes and environment variables
+    - Managing multi-container setups
+3. Deployment
+    - Dockerizing FastAPI applications
+    - Managing Redis persistence in Docker
+    - Scaling and orchestration with Docker Swarm
+  """,
+
+  "JavaScript, React, Node.js, MongoDB": """## JavaScript
+
+1. JavaScript Fundamentals
+    - Variables, data types, and functions
+    - Event handling and DOM manipulation
+    - Promises, async/await, and error handling
+2. Advanced JavaScript
+    - Closures and callbacks
+    - ES6+ Features (Arrow functions, destructuring, spread/rest operators)
+    - JavaScript modules and bundling
+
+## React
+
+1. React Basics
+    - Component-based architecture
+    - JSX syntax and props
+    - State management with useState
+    - Handling events in React
+2. React Hooks
+    - useEffect for lifecycle methods
+    - useContext for state management
+    - Custom hooks and performance optimization
+3. Advanced React
+    - React Router for routing
+    - Lazy loading and code splitting
+    - React Suspense and Error Boundaries
+
+## Node.js
+
+1. Node.js Basics
+    - Event-driven architecture
+    - Non-blocking I/O
+    - Modules (require, exports)
+    - Setting up a Node.js server with Express
+2. API Development with Express
+    - Routing in Express.js
+    - Middleware and error handling
+    - RESTful API design
+    - Authentication with JWT
+3. Node.js in Production
+    - Handling file uploads and streaming
+    - Scaling Node.js applications (clustering, PM2)
+    - Logging and performance monitoring
+
+## MongoDB
+
+1. MongoDB Basics
+    - NoSQL document-based database concepts
+    - CRUD operations in MongoDB
+    - Indexing and schema design
+2. MongoDB with Mongoose
+    - Defining schemas and models with Mongoose
+    - Creating and validating documents
+    - Query building and relationships
+3. Advanced MongoDB
+    - Aggregation framework
+    - Transactions and locking
+    - Replication and sharding
+  """,
+
+  "Python, Django, PostgreSQL, Docker, Nginx": """## Python
+
+1. Python Fundamentals
+    - Data types, functions, and modules
+    - Exception handling and logging
+    - Object-Oriented Programming (OOP)
+2. Python Libraries
+    - Django, Requests, and SQLAlchemy
+    - pytest for testing
+
+## Django
+
+1. Django Basics
+    - MVT architecture
+    - URL routing and views
+    - Static files and media handling
+    - Django ORM for database interactions
+2. Django Models and ORM
+    - Model definition and migrations
+    - Relationships and foreign keys
+    - Query optimization and aggregation
+3. Django Security
+    - User authentication and permissions
+    - CSRF and XSS protection
+    - Security best practices
+4. Django Rest Framework (DRF)
+    - API development with DRF
+    - Serializers and views
+    - Authentication and permissions
+
+## PostgreSQL
+
+1. PostgreSQL Overview
+    - SQL basics and relational data models
+    - Table creation, indexes, and constraints
+    - CRUD operations and advanced queries
+2. PostgreSQL and Django
+    - Integrating PostgreSQL with Django ORM
+    - Connection pooling and transactions
+    - Query optimization and indexing
+
+## Docker
+
+1. Docker Basics
+    - Creating Docker images and containers
+    - Dockerfile and image optimization
+    - Using Docker Compose for multi-service applications
+2. Dockerizing Django and PostgreSQL
+    - Setting up Django and PostgreSQL in Docker containers
+    - Managing environment variables in Docker
+    - Volume management for PostgreSQL persistence
+
+## Nginx
+
+1. Nginx Overview
+    - Basic Nginx configuration
+    - Reverse proxy setup
+    - Load balancing with Nginx
+2. Serving Django with Nginx
+    - Configuring Nginx to serve static and media files
+    - Proxying requests to Django via Gunicorn
+    - Optimizing Nginx for performance
+  """,
+
+  "Java, Spring Boot, MySQL, Kafka": """## Java
+
+1. Java Basics
+    - Variables, loops, and conditionals
+    - OOP principles (Encapsulation, Inheritance, Polymorphism)
+    - Exception handling and logging
+2. Advanced Java
+    - Java Collections Framework
+    - Lambda expressions and Stream API
+    - Multithreading and concurrency
+
+## Spring Boot
+
+1. Introduction to Spring Boot
+    - Spring Boot project structure
+    - Auto-configuration and dependency injection (DI)
+    - RESTful services with Spring MVC
+2. Spring Boot Data Access
+    - Spring Data JPA with MySQL
+    - Hibernate ORM integration
+    - Transaction management
+3. Spring Boot Messaging
+    - Introduction to Kafka
+    - Producing and consuming Kafka messages
+    - Spring Kafka integration
+
+## MySQL
+
+1. MySQL Basics
+    - SQL syntax and database design
+    - Joins, indexes, and normalization
+    - Transactions and locking
+2. MySQL and Spring Boot
+    - Configuring Spring Boot to use MySQL
+    - Connection pooling and optimization
+    - Using JPA and Hibernate with MySQL
+
+## Kafka
+
+1. Kafka Overview
+    - Kafka architecture (brokers, topics, partitions)
+    - Producers and consumers
+    - Message retention and replication
+2. Kafka with Spring Boot
+    - KafkaTemplate and @KafkaListener
+    - Configuring Kafka producer and consumer properties
+    - Managing message offsets and error handling
+  """
+
+}

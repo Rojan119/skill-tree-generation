@@ -1,0 +1,11 @@
+ANALYSIS WORKFLOW:
+1. Identify core competencies from query: {query}
+2. Extract prerequisite relationships from context: {context}
+3. Determine optimal learning sequence based on complexity
+4. Validate resource relevance using knowledge base
+5. Define measurable milestones for each phase
+
+CONTEXT ANALYSIS:
+{context}
+
+REASONING STEPS:

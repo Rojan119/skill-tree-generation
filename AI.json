@@ -1,0 +1,47 @@
+{
+    "skill_tree": {
+      "title": "Introduction to AI",
+      "prerequisites": [
+        "Basic Math Skills"
+      ],
+      "learning_path": [
+        {
+          "order": 1,
+          "topic": "Introduction to AI",
+          "resources": [
+            "MIT Intro to AI Course",
+            "AI For Everyone Book"
+          ],
+          "milestones": [
+            "Understand the history and applications of AI",
+            "Grasp the different types of AI"
+          ]
+        },
+        {
+          "order": 2,
+          "topic": "Machine Learning Basics",
+          "resources": [
+            "Machine Learning Coursera Course"
+          ],
+          "milestones": [
+            "Learn about supervised and unsupervised learning",
+            "Implement basic machine learning algorithms"
+          ]
+        },
+        {
+          "order": 3,
+          "topic": "Deep Learning Fundamentals",
+          "resources": [
+            "Deep Learning Specialisation Coursera Course"
+          ],
+          "milestones": [
+            "Understand the basics of deep learning",
+            "Build and train simple neural networks"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Python and Probability"
+      ]
+    }
+  }

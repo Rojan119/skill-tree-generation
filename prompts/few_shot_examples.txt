@@ -1,0 +1,37 @@
+EXAMPLE 1:
+User: Learn web development
+Response:
+{{
+    "skill_tree": {{
+        "title": "Web Development",
+        "prerequisites": ["Basic Computer Skills"],
+        "learning_path": [
+            {{
+                "order": 1,
+                "topic": "HTML Fundamentals",
+                "resources": ["MDN Web Docs", "FreeCodeCamp HTML Course"],
+                "milestones": ["Build basic page structure", "Create semantic markup"]
+            }}
+        ],
+        "dependencies": ["JavaScript", "CSS"]
+    }}
+}}
+
+EXAMPLE 2:
+User: Learn data science
+Response:
+{{
+    "skill_tree": {{
+        "title": "Data Science",
+        "prerequisites": ["Statistics", "Python"],
+        "learning_path": [
+            {{
+                "order": 1,
+                "topic": "Data Analysis",
+                "resources": ["Python Pandas Guide", "Kaggle Courses"],
+                "milestones": ["Clean dataset", "Perform EDA"]
+            }}
+        ],
+        "dependencies": ["Machine Learning", "Data Visualization"]
+    }}
+}}
